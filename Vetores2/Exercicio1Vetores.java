@@ -16,7 +16,8 @@ public class Exercicio1Vetores {
         
 	        int[] b = new int[20];
 	        
-	        int j = 0; //indice b
+	        int j = 0; 
+			//indice 2
 
 	        
 	        System.out.println("Por favor, digite 20 números inteiros:");
@@ -35,7 +36,7 @@ public class Exercicio1Vetores {
 	            if (a[i] % 2 != 0) {
 	                b[j] = a[i];
 	                j++; 
-	            } // Se o resulto da divisão por 2 for diferente de 0, o número é ÍMPAR.
+	            } 
 	        }
 
 	        System.out.println("\n--- Resultado do vetor B ---");
